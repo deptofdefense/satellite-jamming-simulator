@@ -1,0 +1,36 @@
+{
+  "name": "satellite-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "publish": "parcel build index.html --public-url ./ --out-dir docs"
+  },
+  "author": "David Suárez (github.com/dsuarezv)",
+  "dependencies": {
+    "@wojtekmaj/react-datetimerange-picker": "^3.5.0",
+    "assets": "^3.0.1",
+    "bootstrap": "^5.1.3",
+    "dayjs": "^1.11.3",
+    "query-string": "6.10.1",
+    "react": "^16.14.0",
+    "react-bootstrap": "^2.4.0",
+    "react-coordinate-input": "^1.0.0",
+    "react-dom": "^16.14.0",
+    "react-github-fork-ribbon": "0.6.0",
+    "react-router": "5.1.2",
+    "satellite.js": "^4.1.3",
+    "three": "^0.125.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.16",
+    "@babel/core": "^7.12.16",
+    "@babel/plugin-proposal-class-properties": "^7.12.13",
+    "@babel/preset-react": "^7.12.13",
+    "@types/react": "^16.14.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "parcel-bundler": "^1.12.4"
+  }
+}
