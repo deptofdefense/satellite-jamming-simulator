@@ -24,6 +24,5 @@ stats.html
 
 
 .cache
-dist
 node_modules
 .vscode/
